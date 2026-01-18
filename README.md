@@ -42,13 +42,8 @@ It specifically focuses on streamlining two core workflows:
 
 ## 🛠 System Architecture & Technologies
 
-The system is built using a **3-Tier Architecture** based on J2EE standards.
----
-## Entities and Database
-<img width="1147" height="610" alt="image" src="https://github.com/user-attachments/assets/f12f0f7c-55bd-4de2-a2db-b1687375851c" />
+The system is built using a **3-Tier Architecture** based on J2EE standards, ensuring separation of concerns between the presentation, logic, and data layers.
 
-<img width="1037" height="720" alt="image" src="https://github.com/user-attachments/assets/f75d9d48-9e07-4907-8ba7-c5d5d681c115" />
----
 | Component | Technology |
 | :--- | :--- |
 | **Programming Language** | Java (JDK 17+) |
@@ -56,6 +51,24 @@ The system is built using a **3-Tier Architecture** based on J2EE standards.
 | **Backend** | Java Servlets (Controller), DAO Pattern |
 | **Server** | Apache Tomcat 10.1.48 |
 | **Database** | MySQL Server 8.0.33 |
+
+---
+
+## 📐 System Design & Database
+
+### Entity Class Diagram
+*Visual representation of the system's classes and their relationships.*
+
+<div align="center">
+  <img width="1147" height="610" alt="Entity Class Diagram" src="https://github.com/user-attachments/assets/f12f0f7c-55bd-4de2-a2db-b1687375851c" />
+</div>
+
+### Database Schema
+*Normalized database design handling Members, Documents, Transactions, and Violations.*
+
+<div align="center">
+  <img width="1037" height="720" alt="Database Schema" src="https://github.com/user-attachments/assets/f75d9d48-9e07-4907-8ba7-c5d5d681c115" />
+</div>
 
 ---
 
@@ -71,6 +84,3 @@ The system is built using a **3-Tier Architecture** based on J2EE standards.
     └── view/     # User Interface Layer (JSP)
         ├── librarian/ # Views for Librarians (DocumentInfor.jsp, Confirm.jsp, etc.)
         └── reader/    # Views for Readers (Login.jsp, ReaderCard.jsp)
-
-
-
