@@ -60,14 +60,14 @@ The system is built using a **3-Tier Architecture** based on J2EE standards, ens
 *Visual representation of the system's classes and their relationships.*
 
 <div align="center">
-  <img width="1147" height="610" alt="Entity Class Diagram" src="https://github.com/user-attachments/assets/f12f0f7c-55bd-4de2-a2db-b1687375851c" />
+  <img width="1001" height="525" alt="image" src="https://github.com/user-attachments/assets/244308c9-3b35-4303-9b9f-b0f2f3457ac1" />
 </div>
 
 ### Database Schema
 *Normalized database design handling Members, Documents, Transactions, and Violations.*
 
 <div align="center">
-  <img width="1037" height="720" alt="Database Schema" src="https://github.com/user-attachments/assets/f75d9d48-9e07-4907-8ba7-c5d5d681c115" />
+  <img width="1012" height="712" alt="image" src="https://github.com/user-attachments/assets/80f56a1e-de39-47a9-84ee-a1ebe365243c" />
 </div>
 
 ---
